@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Descreen",
+    "slug": "descreen",
+    "scheme": "descreen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "platforms": ["android", "web"],
+    "plugins": ["expo-router"],
+    "android": {
+      "package": "com.descreen.app",
+      "permissions": ["PACKAGE_USAGE_STATS", "FOREGROUND_SERVICE", "POST_NOTIFICATIONS"]
+    },
+    "experiments": { "typedRoutes": true }
+  }
+}
